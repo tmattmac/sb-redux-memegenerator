@@ -1,0 +1,33 @@
+.Meme {
+    flex-basis: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    font-size: 2em;
+    position: relative;
+}
+.Meme-topText, .Meme.bottomText {
+    display: block;
+}
+
+.Meme:hover .Meme-delete {
+    opacity: 1;
+}
+
+.Meme-delete {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    -webkit-text-fill-color: red;
+    opacity: 0;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 2em;
+    line-height: 0.5em;
+}

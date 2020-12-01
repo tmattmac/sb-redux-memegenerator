@@ -1,0 +1,16 @@
+.MemeForm > * {
+    display: block;
+    height: 2em;
+}
+
+.MemeForm input {
+    position: absolute;
+    left: 10em;
+    width: 30em;
+}
+
+.MemeForm button {
+    background-color: mediumseagreen;
+    color: green;
+    margin-bottom: 1em;
+}
